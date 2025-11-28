@@ -6,7 +6,7 @@ data("iris")
 
 mean(iris$Sepal.Length)
 median(iris$Sepal.Length)
-
+mlv(iris$Sepal.Length, method="mfv")
 sd(iris$Sepal.Length)
 range(iris$Sepal.Length)
 summary(iris$Sepal.Length)
@@ -24,3 +24,4 @@ boxplot (Sepal.Length ~ Species, data=iris,
          main="Boxplot of Sepal Length by Species",
          xlab="Species", ylab="Sepal Length",
          col=c("lightgreen","lightblue","pink"))
+
