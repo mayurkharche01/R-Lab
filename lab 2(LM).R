@@ -4,8 +4,8 @@ data("iris")
 head(iris)
 str(iris)
 summary(iris)
-data("mtcars")
 
+data("mtcars")
 head(mtcars)
 str(mtcars)
 
@@ -21,3 +21,4 @@ iris %>%
     Avg_Sepal_Length = mean(Sepal.Length),
     Avg_Petal_Length = mean(Petal.Length)
   )
+
